@@ -5,8 +5,8 @@ import { motion, useMotionValue, useSpring, animate } from "motion/react";
 import { useReducedMotionSafe } from "@/lib/useReducedMotionSafe";
 
 // Tune these to adjust the feel:
-const SIZE = 200;        // diameter in px — smaller than before
-const BLUR = 30;         // blur radius in px — less diffuse
+const SIZE = 200;        // diameter in px
+const BLUR = 30;         // blur radius in px
 const SPRING = { stiffness: 120, damping: 22 }; // B feel; swap to {80, 20} for A
 
 const DEV_ACCENT = "#4d9fff";
@@ -61,26 +61,27 @@ export function CursorGlow() {
 
   if (reduce || !hasFinePointer) return null;
 
+  // Single element — border-radius, filter, and mix-blend-mode must live on the
+  // same node. Nesting them across parent/child causes browsers to create an
+  // isolated compositing layer for the parent that squares off the blurred child.
   return (
     <motion.div
+      ref={blobRef}
       aria-hidden
-      style={{ x, y }}
+      style={{
+        x,
+        y,
+        width: SIZE,
+        height: SIZE,
+        borderRadius: "9999px",
+        backgroundColor: DEV_ACCENT,
+        filter: `blur(${BLUR}px)`,
+        mixBlendMode: "screen",
+      }}
       initial={{ opacity: 0 }}
-      animate={{ opacity: active ? 1 : 0 }}
+      animate={{ opacity: active ? 0.35 : 0 }}
       transition={{ duration: 0.6 }}
-      className="pointer-events-none fixed left-0 top-0 z-[2] mix-blend-screen"
-    >
-      <div
-        ref={blobRef}
-        style={{
-          width: SIZE,
-          height: SIZE,
-          borderRadius: "9999px",
-          backgroundColor: DEV_ACCENT,
-          opacity: 0.35,
-          filter: `blur(${BLUR}px)`,
-        }}
-      />
-    </motion.div>
+      className="pointer-events-none fixed left-0 top-0 z-[2]"
+    />
   );
 }
