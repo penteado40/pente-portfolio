@@ -26,7 +26,28 @@ const en: AudioContent = {
       title: "FOH for Vocal Livre's show",
       artist: "Vocal Livre",
       // TODO: swap for Felipe's own session breakdown video.
-      url: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      url: "https://youtu.be/xFA-36yV4Iw",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/vQ9FtkHUTW0",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/8cDzRdb7AdA",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/sV7bTqrZ9qE",
       cover: "",
     },
   ],
@@ -89,6 +110,34 @@ const pt: AudioContent = {
       artist: "Playlist on Spotify",
       // TODO: swap for Felipe's own mix.
       url: "https://open.spotify.com/playlist/0U64yQ2gcfF4di63dp9Gdt?si=57a49c9703f1469d",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/xFA-36yV4Iw",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/vQ9FtkHUTW0",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/8cDzRdb7AdA",
+      cover: "",
+    },
+    {
+      title: "FOH for Vocal Livre's show",
+      artist: "Vocal Livre",
+      // TODO: swap for Felipe's own session breakdown video.
+      url: "https://youtu.be/sV7bTqrZ9qE",
       cover: "",
     },
   ],

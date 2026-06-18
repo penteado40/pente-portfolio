@@ -4,8 +4,10 @@ export type EmbedConfig = {
   platform: EmbedPlatform;
   /** Source URL for the embed iframe. */
   src: string;
-  /** CSS aspect-ratio value for the embed's container. */
-  aspectRatio: string;
+  /** CSS aspect-ratio value for the embed's container. Mutually exclusive with height. */
+  aspectRatio?: string;
+  /** CSS height value for the embed's container. Mutually exclusive with aspectRatio. */
+  height?: string;
   /** Accessible title for the embed iframe. */
   title: string;
 };
@@ -58,7 +60,8 @@ function parseSpotify(url: URL): EmbedConfig | null {
   return {
     platform: "spotify",
     src: `https://open.spotify.com/embed/${type}/${id}`,
-    aspectRatio:  "2 / 1", //isCompact ? "3 / 1" :
+    aspectRatio: isCompact ? "3 / 1" : undefined,
+    height: isCompact ? undefined : "380px",
     title: "Spotify player",
   };
 }

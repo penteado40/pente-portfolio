@@ -13,7 +13,7 @@ export function TrackEmbed({ url, title }: TrackEmbedProps) {
   return (
     <div
       className="overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]"
-      style={{ aspectRatio: config.aspectRatio }}
+      style={config.height ? { height: config.height } : { aspectRatio: config.aspectRatio }}
     >
       <iframe
         src={config.src}
