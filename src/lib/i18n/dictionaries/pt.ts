@@ -21,7 +21,7 @@ export const pt: Record<TranslationKey, string> = {
   "hub.dev.cta": "Ver trabalho de desenvolvimento",
   "hub.audio.title": "Engenheiro de Audio",
   "hub.audio.description":
-    "Mixagem, masterizacao e design de som para artistas independentes e estudios.",
+    "Especializado em mixagem de grupos vocais com banda.",
   "hub.audio.cta": "Ver trabalho de audio",
 
   "dev.hero.title": "Sistemas de backend que nao falham em producao.",
@@ -42,6 +42,12 @@ export const pt: Record<TranslationKey, string> = {
   "audio.about.title": "Sobre",
   "audio.tracks.title": "Mixagens selecionadas",
   "audio.services.title": "Servicos",
+  "audio.timeline.title": "Trajetória",
+  "audio.productions.title": "Produções",
+  "audio.productions.others": "Outras produções",
+  "audio.productions.studio": "Mixagem de estúdio",
+  "audio.productions.watch": "Assistir",
+  "audio.photos.title": "Fotos",
   "audio.gear.title": "Estudio e equipamentos",
   "audio.credits.title": "Creditos",
   "audio.cta.title": "Tem uma faixa que precisa funcionar em qualquer lugar?",

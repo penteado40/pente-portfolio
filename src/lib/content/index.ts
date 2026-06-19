@@ -1,5 +1,5 @@
 export { devContent } from "./dev";
-export { audioContent } from "./audio";
+export { audioContent, audioPhotos } from "./audio";
 export { socialLinks, audioSocialLinks } from "./social";
 export type { SocialLink } from "./social";
 export type {
@@ -7,8 +7,11 @@ export type {
   Credit,
   DevContent,
   GearGroup,
+  Photo,
+  Production,
   Project,
   Service,
   SkillGroup,
+  TimelineEntry,
   Track,
 } from "./types";

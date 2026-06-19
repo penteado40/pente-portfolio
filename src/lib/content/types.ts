@@ -40,10 +40,34 @@ export type Credit = {
   role: string;
 };
 
+export type Photo = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+};
+
+export type TimelineEntry = {
+  year: number;
+  description: string;
+};
+
+export type Production = {
+  title: string;
+  description: string;
+  roles: string[];
+  photos: string[];
+  link?: string;
+};
+
 export type AudioContent = {
   bio: string[];
   tracks: Track[];
   services: Service[];
   gear: GearGroup[];
   credits: Credit[];
+  timeline: TimelineEntry[];
+  featuredProductions: Production[];
+  otherProductions: string[];
+  studioArtists: string[];
 };
