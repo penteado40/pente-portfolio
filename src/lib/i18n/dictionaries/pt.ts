@@ -56,6 +56,11 @@ export const pt: Record<TranslationKey, string> = {
 
   "footer.rights": "Todos os direitos reservados.",
 
+  "dev.comingSoon.label": "Em breve",
+  "dev.comingSoon.title": "Esta página está em construção.",
+  "dev.comingSoon.description": "Algo está sendo preparado aqui. Volte em breve.",
+  "dev.comingSoon.cta": "Voltar ao início",
+
   "notFound.title": "Pagina nao encontrada.",
   "notFound.description":
     "A pagina que voce procura nao existe ou foi movida.",

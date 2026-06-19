@@ -54,6 +54,11 @@ export const en = {
 
   "footer.rights": "All rights reserved.",
 
+  "dev.comingSoon.label": "Coming soon",
+  "dev.comingSoon.title": "This page is under construction.",
+  "dev.comingSoon.description": "Something is being put together here. Check back later.",
+  "dev.comingSoon.cta": "Back to home",
+
   "notFound.title": "Page not found.",
   "notFound.description":
     "The page you're looking for doesn't exist, or it moved.",
