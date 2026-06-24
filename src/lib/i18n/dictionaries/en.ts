@@ -12,14 +12,14 @@ export const en = {
   "nav.home": "Home",
 
   "hub.tagline":
-    "Systems developer and audio engineer. Pick a path to see the work.",
+    "I build backend systems and mix live sound — two crafts driven by the same instinct for invisible precision.",
   "hub.dev.title": "Systems Developer",
   "hub.dev.description":
-    "Backend systems, APIs, and developer tooling built to stay boring in production.",
+    "APIs, services, and tooling built for teams that need things to work — quietly and reliably.",
   "hub.dev.cta": "View developer work",
   "hub.audio.title": "Audio Engineer",
   "hub.audio.description":
-    "Mixing, mastering, and sound design for independent artists and studios.",
+    "Live sound, studio mixing, and technical direction for vocal groups, artists, and major productions.",
   "hub.audio.cta": "View audio work",
 
   "dev.hero.title": "Backend systems that stay boring in production.",
@@ -33,9 +33,9 @@ export const en = {
   "dev.cta.subtitle":
     "I'm open to backend, API, and tooling work. Send a note with what you're working on.",
 
-  "audio.hero.title": "Mixes that translate everywhere they're played.",
+  "audio.hero.title": "The best mix is the one nobody notices.",
   "audio.hero.subtitle":
-    "I mix and master tracks for independent artists, working from a treated home studio with analog-modeled processing.",
+    "I specialize in vocal music — live events, DVDs, and studio mixing for vocal groups, bands, and independent artists. Every mix is built to serve the song.",
   "audio.hero.cta": "Listen to mixes",
   "audio.about.title": "About",
   "audio.tracks.title": "Selected mixes",
@@ -48,9 +48,9 @@ export const en = {
   "audio.photos.title": "Photos",
   "audio.gear.title": "Studio & gear",
   "audio.credits.title": "Credits",
-  "audio.cta.title": "Got a track that needs to translate everywhere?",
+  "audio.cta.title": "Working on something that needs to sound right?",
   "audio.cta.subtitle":
-    "I'm taking on mixing, mastering, and sound design work. Send over your stems or a rough mix.",
+    "I'm open to mixing, mastering, live sound, and technical direction work. Tell me about your project.",
 
   "footer.rights": "All rights reserved.",
 

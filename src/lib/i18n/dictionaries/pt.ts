@@ -14,14 +14,14 @@ export const pt: Record<TranslationKey, string> = {
   "nav.home": "Inicio",
 
   "hub.tagline":
-    "Desenvolvedor de sistemas e engenheiro de audio. Escolha um caminho para ver o trabalho.",
+    "Construo sistemas de backend e mixo som ao vivo — duas areas movidas pelo mesmo instinto de precisao invisivel.",
   "hub.dev.title": "Desenvolvedor de Sistemas",
   "hub.dev.description":
-    "Sistemas de backend, APIs e ferramentas para desenvolvedores, feitos para nao falhar em producao.",
+    "APIs, servicos e ferramentas feitos para times que precisam que as coisas funcionem — de forma silenciosa e confiavel.",
   "hub.dev.cta": "Ver trabalho de desenvolvimento",
   "hub.audio.title": "Engenheiro de Audio",
   "hub.audio.description":
-    "Especializado em mixagem de grupos vocais com banda.",
+    "Som ao vivo, mixagem de estudio e direcao tecnica para grupos vocais, artistas e grandes producoes.",
   "hub.audio.cta": "Ver trabalho de audio",
 
   "dev.hero.title": "Sistemas de backend que nao falham em producao.",
@@ -35,9 +35,9 @@ export const pt: Record<TranslationKey, string> = {
   "dev.cta.subtitle":
     "Estou disponivel para projetos de backend, APIs e ferramentas internas. Manda uma mensagem contando o que voce esta construindo.",
 
-  "audio.hero.title": "Mixagens que funcionam em qualquer sistema de som.",
+  "audio.hero.title": "A melhor mixagem é aquela que ninguém percebe.",
   "audio.hero.subtitle":
-    "Mixo e masterizo faixas para artistas independentes, em um home studio tratado acusticamente com processamento modelado em equipamentos analogicos.",
+    "Sou especialista em musica vocal — eventos ao vivo, DVDs e mixagem de estudio para grupos vocais, bandas e artistas independentes. Cada mix é construída para servir a música.",
   "audio.hero.cta": "Ouvir mixagens",
   "audio.about.title": "Sobre",
   "audio.tracks.title": "Mixagens selecionadas",
@@ -50,9 +50,9 @@ export const pt: Record<TranslationKey, string> = {
   "audio.photos.title": "Fotos",
   "audio.gear.title": "Estudio e equipamentos",
   "audio.credits.title": "Creditos",
-  "audio.cta.title": "Tem uma faixa que precisa funcionar em qualquer lugar?",
+  "audio.cta.title": "Trabalhando em algo que precisa soar certo?",
   "audio.cta.subtitle":
-    "Estou aceitando trabalhos de mixagem, masterizacao e design de som. Manda seus stems ou uma mixagem preliminar.",
+    "Estou disponivel para mixagem, masterizacao, som ao vivo e direcao tecnica. Me conta sobre o seu projeto.",
 
   "footer.rights": "Todos os direitos reservados.",
 

@@ -95,22 +95,22 @@ const en: AudioContent = {
     {
       title: "Mixing",
       description:
-        "Full multitrack mixing from session stems, with up to two rounds of revisions and stem exports on request.",
+        "I take your session stems and build the mix from the ground up — balancing every voice and instrument until the song hits the way it should. Two rounds of revisions included.",
     },
     {
       title: "Mastering",
       description:
-        "Loudness, tonal balance, and translation checks across playback systems, delivered in streaming-ready formats.",
+        "Final polish for streaming, vinyl, or broadcast. I check translation across systems so your track sounds consistent everywhere it plays.",
     },
     {
       title: "Recording",
       description:
-        "Vocal and instrument tracking sessions at a treated home studio, with same-day rough mixes.",
+        "Vocal and instrument sessions at my treated studio. You walk out with a rough mix the same day.",
     },
     {
       title: "Live Sound",
       description:
-        "FOH for live events, focusing on clarity, dynamics, emotion, and sound quality.",
+        "FOH mixing for concerts, DVDs, and events — with a focus on clarity, dynamics, and letting the performance breathe.",
     },
   ],
   gear: [
@@ -221,22 +221,22 @@ const pt: AudioContent = {
     {
       title: "Mixagem",
       description:
-        "Mixagem completa a partir dos stems da sessao, com ate duas rodadas de ajustes e exportacao de stems sob demanda.",
+        "Pego os stems da sua sessao e construo a mix do zero — equilibrando cada voz e instrumento ate a musica bater do jeito certo. Duas rodadas de ajuste incluidas.",
     },
     {
       title: "Masterizacao",
       description:
-        "Ajuste de loudness, balanco tonal e checagem em diferentes sistemas de reproducao, entregue em formatos prontos para streaming.",
+        "Acabamento final para streaming, vinil ou broadcast. Checo a traducao em diferentes sistemas para que a faixa soe consistente em qualquer lugar.",
     },
     {
       title: "Gravacao",
       description:
-        "Sessoes de gravacao de vocais e instrumentos em studio tratado, com mix preliminar no mesmo dia.",
+        "Sessoes de vocal e instrumento no meu estudio tratado. Voce sai com uma mix preliminar no mesmo dia.",
     },
     {
       title: "Som Ao Vivo",
       description:
-        "Mixagem de eventos ao vivo, com foco em claridade, dinamica, emoção e qualidade de som.",
+        "Mixagem FOH para shows, DVDs e eventos — com foco em clareza, dinamica e deixar a performance respirar.",
     },
   ],
   gear: [
